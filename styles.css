@@ -74,7 +74,8 @@ body {
     font-size: 8pt;
     color: white;
     align-self: flex-end;
-
+    transform: translateY(-10px)
 }
 
 /* Review Section */
+
