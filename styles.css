@@ -1,5 +1,33 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
 html, body {
     margin: 0;
     padding: 0;
     width: 100%;
 }  
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+body {
+    background: url(./img/background.png);
+    text-align: center;
+}
+
+.banner-background {
+    background: url('./img/bannerbackground.png');
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner {
+    height: 50px;
+}
