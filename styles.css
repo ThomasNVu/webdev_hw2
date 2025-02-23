@@ -16,7 +16,7 @@ h1 {
 }
 
 body {
-    background: url(./img/background.png);
+    background: url('./img/background.png');
     text-align: center;
 }
 
@@ -31,3 +31,50 @@ body {
 #banner {
     height: 50px;
 }
+
+
+
+.content {
+    width: 800px;
+    margin: 20px auto;
+    border: 4px solid gray;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.above p {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    width: 550px;    
+}
+
+/* Rating Section */
+
+.rating {
+    display: flex;
+    align-items: center;
+    background: url('./img/rottenbackground.png');
+}
+
+.rating-box {
+    text-align: center;
+}
+
+.rating-percentage {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+}
+
+.rating-text {
+    font-size: 8pt;
+    color: white;
+    align-self: flex-end;
+
+}
+
+/* Review Section */
