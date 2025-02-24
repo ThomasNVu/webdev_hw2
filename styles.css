@@ -79,3 +79,44 @@ body {
 
 /* Review Section */
 
+.review-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 2%;
+}
+
+.review {
+    width: 47%;
+    margin-bottom: 35px;
+}
+
+.review-box {
+    background-color: #E1D697;
+    border: 2px solid gray;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.review-image {
+    float: left;
+}
+
+.quote {
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+.critic-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: start;
+    gap: 5px;
+}
+
+.critics {
+    font-style: italic;
+    font-size:12px;
+}
+
